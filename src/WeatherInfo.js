@@ -29,7 +29,7 @@ export default function WeatherInfo(props) {
         <div className="data-column ">
           <ul className="MoreData">
             <li>
-              Feels: <strong>{Math.round(props.data.feels)} </strong>°
+              Feels like: <strong>{Math.round(props.data.feels)} </strong>°
             </li>
             <li>
               Humidity: <strong>{props.data.humidity} %</strong>
