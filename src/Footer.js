@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="container">
       This project was coded by Julia Atamas and is{" "}
       <a
-        href="https://github.com/aeueoe/weather"
+        href="https://github.com/aeueoe/weather_app_react"
         target="_blank"
         rel="noopener noreferrer"
       >
