@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import ScaleLoader from "react-spinners/ScaleLoader";
