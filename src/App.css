@@ -1,0 +1,9 @@
+body {
+  background: var(--background);
+}
+
+.App {
+  max-width: 800px;
+  margin: 60px auto;
+  margin-bottom: 0;
+}

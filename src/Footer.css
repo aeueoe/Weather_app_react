@@ -1,0 +1,14 @@
+footer {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--help-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

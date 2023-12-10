@@ -1,0 +1,107 @@
+.Weather {
+  font-family: "Manrope", Helvetica, Arial, sans-serif;
+  background: var(--background-2);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) -5px 9px 10px -7px;
+  padding: 40px;
+}
+
+.Weather form {
+  margin-top: 10px;
+}
+
+.form .input-group {
+  width: 600px;
+}
+
+.btn {
+  color: var(--text-color);
+}
+
+.Weather h1 {
+  line-height: 2.5rem;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+.WeatherInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.WeatherInfo .icon-unit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Temperature {
+  margin-left: 0.8rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.Unit {
+  font-size: 1rem;
+  font-weight: 800;
+  position: relative;
+  top: -50px;
+  color: var(--primary-color);
+}
+
+.Unit a {
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.Unit a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.MoreData {
+  margin-left: 2rem;
+  padding: 0;
+}
+.MoreData li {
+  list-style: none;
+}
+
+.Weather canvas {
+  margin: 24px 0;
+}
+
+.spinner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 992px) {
+  .MoreData {
+    margin-left: 0;
+  }
+
+  .Temperature {
+    margin-left: 0.8rem;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+
+  .Unit {
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    top: -50px;
+    color: var(--primary-color);
+  }
+  .Weather canvas {
+    margin: 20px 0;
+  }
+  .Weather h1 {
+    margin-bottom: 1rem;
+  }
+}

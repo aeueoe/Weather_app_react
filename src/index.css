@@ -1,0 +1,9 @@
+/* Global styles for common elements */
+:root {
+  --primary-color: #4050d2;
+  --background: #e8e8e8;
+  --help-color: #200088;
+  --background-2: #ffffff;
+  --text-color: #000000;
+  font-family: "Manrope", Helvetica, Arial, sans-serif;
+}
