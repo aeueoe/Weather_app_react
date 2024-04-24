@@ -1,4 +1,4 @@
-# Weather App
+# Weather App React
 
 
 Search a location for forecast data.
@@ -7,7 +7,7 @@ Search a location for forecast data.
 - Display data in metric or imperial units.
 - Unique weather symbols for each forecast description.
 
-Buikt with 
+Built with 
 # React
 # Bootstrap
 
